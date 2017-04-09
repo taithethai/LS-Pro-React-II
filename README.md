@@ -5,12 +5,19 @@
 1. Feynman Writing Prompts - Write out explanations of the following concepts like you are explaining it to a 12 year old.  Doing this will help you quickly discover any holes in your understanding.  Ask your questions on Slack.
 		
 	* arrow functions
+	** more efficient way to write anonymous functions
 	* state
+	** allows component to be updated/interactive, similar to clicking Like on Facebook(tm).
 	* constructor
+	** First needs super(props), or things will break. This is where you initialize states
 	* setState - setState with a callback function and setState with an object passed in
+	** allows for making changes on the page without needing to refresh the entire page (shallow merge)
 	* .bind
+	** allows you to specifically say "this" is context.
 	* functional components vs class components
+	** functional components are functional, that is, they do one thing, where as class components have more features.
   	* onClick
+  	** gives a hook for react to do something when something happens (interactivity)
 
 
 2. Fork and clone this repo.  When you need to commit use the following commands.
